@@ -60,7 +60,7 @@ namespace VatLieuXayDungWebApiApp.Controllers
                 sanpham.DonGia = sp.DonGia;
                 sanpham.DonViTinh = sp.DonViTinh;
 
-                return Ok(sanpham);
+                return Ok();
             }
             catch
             {
